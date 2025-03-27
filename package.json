@@ -5,7 +5,6 @@
   "type": "module",
   "scripts": {
     "test": "vitest",
-    "test:run": "vitest --run",
     "test:ci": "export GITHUB_ACTIONS=true && vitest --run"
   },
   "devDependencies": {
